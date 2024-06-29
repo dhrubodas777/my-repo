@@ -1,0 +1,204 @@
+.yzfllw {
+	position: relative;
+	padding: 15px;
+	padding-bottom: 8px;
+	border-radius: 20px 0 20px 20px;
+	background-color: #fff;
+	border: 1px solid#0b57cf
+}
+
+.image img {
+	flex-shrink: 0;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	padding: 4px;
+	border: 1.5px solid var(--linkB);
+	border-top-color: transparent;
+	border-bottom-color: transparent
+}
+
+.Label-1 {
+	line-height: 1.9em;
+	position: relative;
+	padding: 0;
+	list-style: none;
+	font-size: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px 10px
+}
+
+.Label-1 li {
+	background: rgba(155, 170, 175, .12);
+	margin-right: 10px;
+	border-radius: 20px;
+	padding: 5px 10px;
+	line-height: 1.5em;
+	white-space: nowrap
+}
+
+.ycnbr {
+	position: absolute;
+	z-index: 1;
+	background-color: #fff;
+	width: 30px;
+	height: 30px;
+	bottom: 8px;
+	right: 8px;
+	padding: 5px;
+	border-radius: 50%
+}
+
+.ycnbr .ycnbrpn {
+	display: flex;
+	font-size: 12px;
+	justify-content: center;
+	margin-top: -3px
+}
+
+.ycusr {
+	position: relative;
+	padding: 15px;
+	border-radius: 20px;
+	background: #fff;
+	box-shadow: 0 10px 25px -3px rgb(0 0 0 / 10%);
+	margin-top: 25px
+}
+
+.ycusr::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 115px;
+	height: 115px;
+	background: rgba(155, 170, 175, .12);
+	background-repeat: no-repeat;
+	border-radius: 20px 0 120px;
+	transition: opacity .3s;
+	opacity: 1
+}
+
+.ycusr::after {
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 115px;
+	height: 115px;
+	background: rgba(155, 170, 175, .12);
+	background-repeat: no-repeat;
+	border-radius: 120px 0 20px;
+	transition: opacity .3s;
+	opacity: 1
+}
+
+.ycusr.c {
+	border: 1px solid var(--linkC)
+}
+
+.ycusrsv a {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 75%;
+	right: 18px;
+	padding: 5px;
+	border-radius: 50%;
+	background: #ebeff3;
+	top: 8px;
+	right: 8px;
+	box-shadow: 0 10px 25px -3px rgb(0 0 0 / 10%)
+}
+
+.ycusrsv a svg {
+	justify-content: center;
+	margin: 5px;
+	margin-top: 3px
+}
+
+.ycusrLn {
+	margin-left: 90px;
+	color: #009ee0;
+	font-size: 10px
+}
+
+.ycusrTl {
+	font-weight: 700;
+	margin-left: 90px;
+	color: #aaa;
+	font-size: 15px;
+	margin-bottom: 10px
+}
+
+.ycusrTl:after {
+	margin-left: 90px;
+	content: "";
+	display: block;
+	height: 1px;
+	background-color: var(--linkC);
+	margin-top: 10px;
+	animation-name: AnYz;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	margin-left: 0
+}
+
+.ycusrD {
+	color: #555;
+	font-size: 13px
+}
+
+@keyframes AnYz {
+	0% {
+		width: 30px
+	}
+
+	50% {
+		width: 60px
+	}
+
+	100% {
+		width: 30px
+	}
+}
+
+.drK .Label-1 li,
+.drK .ycnbr {
+	background-color: var(--darkB)
+}
+
+.drK .ycusr {
+	background-color: var(--darkBs)
+}
+
+.drK .ycusrLn {
+	color: var(--darkTa)
+}
+
+.drK .ycusrD,
+.drK .ycusrTl {
+	color: var(--darkTa)
+}
+
+.drK .ycnbr {
+	color: #fff)
+}
+
+.drK .ycusr.c {
+	border: 1px solid var(--darkU)
+}
+
+.drK .ycusrsv a {
+	background: var(--darkBa)
+}
+
+.drK .ycusrsv a svg {
+	stroke: #fff
+}
